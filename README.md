@@ -30,12 +30,12 @@ allprojects {
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b:android-boilerplate:MODULE:VERSION'    
+    implementation 'com.github.quentin7b.android-boilerplate:MODULE_NAME:MODULE_VERSION'    
 }    
 ``` 
 
 For example the `usecase` module:
-`implementation 'com.github.quentin7b:android-boilerplate:usecase:1.0.0'`
+`implementation 'com.github.quentin7b.android-boilerplate:usecase:1.0.0'`
     
 ## License    
 
