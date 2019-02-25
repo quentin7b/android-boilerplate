@@ -33,6 +33,6 @@ val service = service.create(YourService::class.java)
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b:android-boilerplate:network-retrofit-converter:1.0.0'    
+    implementation 'com.github.quentin7b.android-boilerplate:network_retrofit_converter:1.0.0'    
 }    
 ``` 

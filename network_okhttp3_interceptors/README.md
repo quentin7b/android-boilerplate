@@ -42,6 +42,6 @@ This way, before each request, the interceptor will look for the value of `prefe
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b:android-boilerplate:network-okhttp3-interceptors:1.0.0'    
+    implementation 'com.github.quentin7b.android-boilerplate:network_okhttp3_interceptors:1.0.0'    
 }    
 ``` 

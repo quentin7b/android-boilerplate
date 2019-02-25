@@ -31,6 +31,6 @@ class HelloWorldUseCase: UseCase<String, Unit> {
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b:android-boilerplate:usecase:1.0.0'    
+    implementation 'com.github.quentin7b.android-boilerplate:usecase:1.0.0'    
 }    
 ``` 
