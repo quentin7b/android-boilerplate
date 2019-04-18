@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/network_okhttp3_interceptors" />
             <option value="$PROJECT_DIR$/network_retrofit_converter" />
+            <option value="$PROJECT_DIR$/recycler_view" />
             <option value="$PROJECT_DIR$/usecase" />
           </set>
         </option>
