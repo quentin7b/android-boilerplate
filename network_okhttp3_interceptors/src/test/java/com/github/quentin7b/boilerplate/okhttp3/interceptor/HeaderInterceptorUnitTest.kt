@@ -12,6 +12,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Test
+import kotlin.random.Random
 
 
 class HeaderInterceptorUnitTest {
@@ -26,7 +27,7 @@ class HeaderInterceptorUnitTest {
         mockServer = MockWebServer()
         mockServer.start()
         headerName = "Header-Test-${System.currentTimeMillis()}"
-        headerValue = java.util.Random().nextInt(1234567).toString(10)
+        headerValue = Random.nextInt(1234567).toString(10)
     }
 
     @After
@@ -39,25 +40,25 @@ class HeaderInterceptorUnitTest {
     @Test
     fun `header name is added by string constructor`() = runBlocking {
         val response = buildResponse(false)
-        assertNotNull(response.request().header(headerName))
+        assertNotNull(response.request.header(headerName))
     }
 
     @Test
     fun `header name is added by string fetcher constructor`() = runBlocking {
         val response = buildResponse(true)
-        assertNotNull(response.request().header(headerName))
+        assertNotNull(response.request.header(headerName))
     }
 
     @Test
     fun `header value is correct with string constructor`() = runBlocking {
         val response = buildResponse(false)
-        assertEquals(headerValue, response.request().header(headerName))
+        assertEquals(headerValue, response.request.header(headerName))
     }
 
     @Test
     fun `header value is correct with string fetcher constructor`() = runBlocking {
         val response = buildResponse(true)
-        assertEquals(headerValue, response.request().header(headerName))
+        assertEquals(headerValue, response.request.header(headerName))
     }
 
     private fun buildResponse(isValueFromBlock: Boolean): Response {
