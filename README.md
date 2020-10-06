@@ -1,17 +1,21 @@
 Android Boilerplate  
 ===  
 
-![Hosted on Jitpack.io](https://img.shields.io/badge/hosting-jitpack-blue.svg)    
+![Hosted on Jitpack.io](https://img.shields.io/jitpack/v/github/quentin7b/android-boilerplate?label=android-boilerplate)    
 
-_TL;DR A set of code bunches I don't want to write anymore !_    
+_TL;DR A set of code bunches I don't want to write anymore !_
  
  ## Elements  
-  
-- [UseCase](usecase/README.md) A simple `UseCase` interface  
+ 
+ 
 - [Network](network/README.md) A `NetworkResponse` item for safe network call (no more try catch)  
 - [Network-Retrofit-Converter](network_retrofit_converter/README.md) A helper for [Retrofit](https://square.github.io/retrofit/) usage with [Network](network/README.md)  
 - [Network-Okhttp3-Interceptor](network_okhttp3_interceptors/README.md) A helper for the interceptors for [okhttp3](https://square.github.io/okhttp/) (like to set headers)
+ 
 - [Recycler_View](recycler_view/README.md) Helpers for [recycler view](https://square.github.io/okhttp/) (like simple adapter)
+ 
+- [UseCase](usecase/README.md) A simple `UseCase` interface  
+
   
 ## Install    
 
@@ -31,13 +35,10 @@ allprojects {
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b.android-boilerplate:MODULE_NAME:MODULE_VERSION'    
+    implementation 'com.github.quentin7b.android-boilerplate:1.1.0'    
 }    
 ``` 
-
-For example the `usecase` module:
-`implementation 'com.github.quentin7b.android-boilerplate:usecase:1.0.0'`
-    
+  
 ## License    
 
  Project is under [Apache 2](LICENSE)    
