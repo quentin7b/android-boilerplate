@@ -1,4 +1,4 @@
-package com.github.quentin7b.androidboilerplate.recycler_view
+package com.github.quentin7b.androidboilerplate.recyclerview
 
 import android.view.LayoutInflater
 import android.view.View

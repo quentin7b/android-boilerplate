@@ -1,4 +1,4 @@
-package com.github.quentin7b.boilerplate.network.okhttp3.interceptor
+package com.github.quentin7b.androidboilerplate.network.okhttp3.interceptor
 
 import okhttp3.Interceptor
 import okhttp3.Response

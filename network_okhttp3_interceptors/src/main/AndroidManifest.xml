@@ -1,2 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.github.quentin7b.boilerplate.network.okhttp3.interceptor"/>
+          package="com.github.quentin7b.androidboilerplate.network.okhttp3.interceptor"/>
