@@ -1,6 +1,6 @@
-package com.github.quentin7b.boilerplate.okhttp3.interceptor
+package com.github.quentin7b.androidboilerplate.okhttp3.interceptor
 
-import com.github.quentin7b.boilerplate.network.okhttp3.interceptor.HeaderInterceptor
+import com.github.quentin7b.androidboilerplate.network.okhttp3.interceptor.HeaderInterceptor
 import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.Request
