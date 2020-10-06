@@ -12,7 +12,7 @@ _TL;DR A set of code bunches I don't want to write anymore !_
 - [Network-Retrofit-Converter](network_retrofit_converter/README.md) A helper for [Retrofit](https://square.github.io/retrofit/) usage with [Network](network/README.md)  
 - [Network-Okhttp3-Interceptor](network_okhttp3_interceptors/README.md) A helper for the interceptors for [okhttp3](https://square.github.io/okhttp/) (like to set headers)
  
-- [Recycler_View](recycler_view/README.md) Helpers for [recycler view](https://square.github.io/okhttp/) (like simple adapter)
+- [Recycler_View](recyclerview/README.md) Helpers for [recyclerview](https://square.github.io/okhttp/) (like simple adapter)
  
 - [UseCase](usecase/README.md) A simple `UseCase` interface  
 
