@@ -1,7 +1,7 @@
 Android Boilerplate: Network Retrofit Converter
 ===  
 
-![Hosted on Jitpack.io](https://img.shields.io/badge/hosting-jitpack-blue.svg)
+![Hosted on Jitpack.io](https://img.shields.io/jitpack/v/github/quentin7b/android-boilerplate?label=android-boilerplate)    
 
 _TL;DR A set of code bunches I don't want to write anymore !_    
 
