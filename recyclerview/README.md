@@ -24,6 +24,6 @@ recyclerView.adapter = RecyclerViewBasicAdapter(R.layout.item_view) { item, view
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b.android-boilerplate:recycler-view:1.0.0'    
+    implementation 'com.github.quentin7b.android-boilerplate:recyclerview:VERSION'    
 }    
 ``` 

@@ -34,6 +34,6 @@ fun doANetworkCallAndUseIt() {
 In the *module* `build.gradle`    
  ```gradle    
 dependencies {    
-    implementation 'com.github.quentin7b.android-boilerplate:network:1.0.0'    
+    implementation 'com.github.quentin7b.android-boilerplate:network:VERSION'    
 }    
 ``` 

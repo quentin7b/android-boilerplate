@@ -1,1 +1,1 @@
-include ':app', ':usecase', ':network', ':network_retrofit_converter', ':network_okhttp3_interceptors', ':recycler_view'
+include ':app', ':usecase', ':network', ':network_retrofit_converter', ':network_okhttp3_interceptors', ':recyclerview'
